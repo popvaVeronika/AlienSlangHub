@@ -1,0 +1,276 @@
+body {
+  background: url(../images/background.jpg);
+  margin: 0;
+  background-color: black;
+  scroll-behavior: smooth;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+* {
+  margin: 0;
+  scroll-behavior: smooth;
+}
+
+p, h1, h2, h3, h4, h5, h6, li, a {
+  font-family: Arial, Helvetica, sans-serif;
+  word-wrap: break-word;
+  text-decoration: none;
+  color: #151f18;
+  line-height: 28px;
+}
+
+
+@media (max-height: 100vh) and (min-width: 100vh) {
+   
+    h1 {
+        font-size: 2.5rem; 
+    }
+
+    h2 {
+        font-size: 2.25rem; 
+    }
+
+    h3 {
+        font-size: 2rem; 
+    }
+
+    h4 {
+        font-size: 1.75rem; 
+    }
+
+    h5 {
+        font-size: 1.5rem; 
+    }
+
+    p {
+        font-size: 1.125rem; 
+
+    span {
+        font-size: 1.125rem; 
+    }
+}
+
+h1 {
+  line-height: 50px;
+  text-align: center;
+}
+
+header {
+  margin: 0px;
+  display: flex;
+  flex-direction: grid;
+  grid-template-columns: 80vw, 20vw;
+  height: 40px;
+}
+header img {
+  z-index: -2;
+  position: absolute;
+  left: 0vw;
+  min-width: 70vw;
+  max-width: 100vw;
+}
+header span {
+  margin-top: 0;
+  cursor: default;
+}
+header span p {
+  width: 80vw;
+  font-size: 2vw;
+  font-weight: 900;
+  color: white;
+  padding-left: 10px;
+}
+header button {
+  cursor: pointer;
+  outline: 2px white solid;
+  outline-offset: 2px;
+  border-radius: 2px;
+  font-size: 100%;
+  font-weight: 500;
+  background-color: rgba(255, 255, 255, 0.684);
+  border: none;
+  width: 20vw;
+  transition: ease 1s;
+}
+header button p {
+  margin-top: 3%;
+}
+header button:hover {
+  background-color: rgb(255, 255, 255);
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+}
+body .t1 {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  width: 60vw;
+  height: 30px;
+  margin-left: 25vw;
+  margin-top: 90px;
+}
+body .t1 input {
+  text-decoration: none;
+  border: none;
+  border-radius: 2px;
+  outline: 2px white solid;
+  outline-offset: 2px;
+  height: 25px;
+  width: 50vw;
+}
+body .t1 .lupa {
+  background-color: rgba(255, 255, 255, 0);
+  background-image: url(../images/lupa.svg);
+  border: none;
+  outline: none;
+  background-size: cover;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+}
+body .info {
+  display: grid;
+  grid-template-columns: 70vw 20vw;
+  padding-left: 5vw;
+  padding-right: 5vw;
+  gap: 10px;
+  margin-top: 10px;
+}
+body .info .stat {
+  background-color: rgba(255, 255, 255, 0.93);
+  padding: 10px;
+  text-align: justify;
+  border-radius: 2px;
+  outline: 2px white solid;
+  outline-offset: 2px;
+}
+body .info .mic-info {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 20vw;
+}
+body .info .mic-info .token {
+  width: 20vw;
+}
+
+.dialog {
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.747);
+}
+.dialog .dialog_inside {
+  border-radius: 2px;
+  outline: 2px white solid;
+  outline-offset: 2px;
+  margin: auto;
+  width: 30vw;
+  height: 500px;
+  background-color: #7bab93;
+}
+.dialog .dialog_inside .p1 {
+  text-align: left;
+  margin-left: 10px;
+}
+.dialog .dialog_inside .p2 {
+  text-align: center;
+  color: rgb(30, 55, 37);
+  font-weight: 800;
+  margin-bottom: -40px;
+}
+.dialog .dialog_inside textarea, .dialog .dialog_inside input {
+  border: none;
+  border-radius: 5px;
+  background-color: white;
+}
+.dialog .dialog_inside form {
+  position: relative;
+  top: 60px;
+  display: grid;
+  grid-template-columns: 40% 50%;
+  gap: 10px;
+}
+.dialog .dialog_inside p {
+  text-align: end;
+}
+.dialog .dialog_inside .button {
+  cursor: pointer;
+  position: absolute;
+  top: 300px;
+  margin-left: 10px;
+  padding: 10px;
+}
+.dialog .dialog_inside textarea {
+  max-height: 20vw;
+  max-width: 40vh;
+}
+.dialog button {
+  width: 35px;
+  height: 35px;
+  background-image: url(../images/x.svg);
+  background-size: 100%;
+  border: none;
+  bACKGROUND-COLOR: rgba(255, 255, 255, 0);
+  cursor: pointer;
+  margin-left: 65vw;
+}
+
+.avtorisation {
+  width: 50vw;
+  height: 500px;
+  margin: auto;
+  background-color: #7bab93;
+  border-radius: 2px;
+  outline: 2px white solid;
+  outline-offset: 2px;
+}
+.avtorisation form {
+  position: relative;
+  top: 60px;
+  text-align: center;
+  gap: 10px;
+}
+.avtorisation textarea, .avtorisation input {
+  border: none;
+  border-radius: 5px;
+  background-color: white;
+}
+
+.admin {
+  background-color: white;
+  border-radius: 2px;
+  outline: 2px white solid;
+  outline-offset: 2px;
+  width: 90vw;
+  margin: auto;
+  margin-top: 120px;
+  padding: 10px;
+}
+.admin h3 {
+  text-align: center;
+}
+.admin .main {
+  width: 100%;
+  height: 170px;
+  overflow-y: auto;
+}
+.admin .entry {
+  display: grid;
+  grid-template-columns: 20% 80%;
+  text-align: justify;
+  border-radius: 2px;
+  border-bottom: 2px solid #7bab93;
+}
+.admin form {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  mARGIN-LEFT: 30%;
+}
+.admin .inp {
+  background-color: white;
+}/*# sourceMappingURL=a.css.map */
