@@ -1,25 +1,21 @@
-## Вклад
 
-Если вы хотите, чтобы другие пользователи могли внести свой вклад в ваш проект, добавьте инструкции:
+![nlo](jjob/images/tokenSecond.svg) ![nlo](jjob/images/tokenMain.svg)
 
-1. Форкните репозиторий
-2. Создайте свою ветку (git checkout -b feature/ваша-фича)
-3. Сделайте коммит (git commit -m 'Добавил новую функцию')
-4. Отправьте изменения (git push origin feature/ваша-фича)
-5. Создайте Pull Request
 
-## Лицензия
-
-Укажите лицензию вашего проекта. Например:
-
-Этот проект лицензирован под MIT License - подробности см. в файле [LICENSE](LICENSE).
+<h1 align="center" style=" margin-top:-10px;">Hi there, I'm Veronika</h1>
+<h3 align="center">IT student </h3><br>
+<p>Skills: scss, html, js, c++, python, php, sql</p>
+<p>now russian</p> <br>
+## запуск и проверка работы
+Есть sql бд, есть папка jjob с сайтом, все.
+Можно было бы сделать общий скрипт для связи с бд с любым вашим паролем, но зачем оно надо
 
 ## Контакты
 
-Ваше имя - [Ваш email](mailto:ваш_email@example.com)  
-[Ваш профиль на GitHub](https://github.com/ваш_пользователь)
+Мое имя - [pomidorkapapicha@gmail.com](mailto:pomidorkapapicha@gmail.com)  <br>
+[профиль на гитхаб](https://github.com/mountingfoam_228)
 
 ## Благодарности
-
-- Спасибо [Имя](https://github.com/пользователь) за их помощь!
-- Вдохновение от [Проект](https://github.com/проект)
+КЭИ УлГту, руководитель практикой Диджорджио Н.А. <br>
+@GPT4Telegrambot, спасибо за заполнение сайта контентом <br>
+https://www.youtube.com/@itproger, спасибо за краткий гайд по php
