@@ -5,6 +5,7 @@
 <h1 align="center" style=" margin-top:-10px;">Hi there, I'm Veronika</h1>
 <h3 align="center">IT student </h3><br>
 <p>Skills: scss, html, js, c++, python, php, sql</p>
+<p>Used languages: sql, scss, html, php by xampp</p>
 <p>now russian</p> <br>
 ## запуск и проверка работы
 Есть sql бд, есть папка jjob с сайтом, все.
